@@ -45,8 +45,10 @@ font-size: 30px;
 
 /*querys*/
 @media screen and (max-width: 900px) {
-.titulo_presentacion{
+.titulo_presentacion h2{
   font-size: 2rem;
+  padding-top: 5rem;
+
 }
 video{
   display: none;
