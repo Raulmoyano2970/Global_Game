@@ -12,7 +12,7 @@ const Inicio = () => {
 
 <div className="hero-container">  
             <Navbar/>
-<img className="image_presentacion" src={spider}  />
+
 <div>
 <motion.h1
 variants={fadeIn("up", 0.3)} 
