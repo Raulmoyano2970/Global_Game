@@ -1,0 +1,111 @@
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    color: rgb(255, 255, 255);
+    gap: 1rem;
+    background: rgb(63,94,251);
+    background-color: #000000;
+}
+
+.footer h3 {
+    display: flex;
+    justify-content: center;
+    color: black;
+    text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #ff00de , 0 0 70px #ff00de , 0 0 80px #ff00de , 0 0 100px #ff00de ;
+    -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+
+}
+
+.logo-footer-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+/* .logo-footer-container h4 {
+    text-shadow: 0 0 5px #24b6f4, 0 0 10px #58CDFF, 0 0 15px #58CDFF, 0 0 20px #58CDFF, 0 0 25px #58CDFF, 0 0 30px #58CDFF, 0 0 35px #58CDFF;
+} */
+
+.logo-footer {
+    width: 7rem;
+    margin-top: 2rem;
+}
+
+.socialmedia-container {
+    display: flex;
+    width: 8rem;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    justify-content: center;
+}
+
+.img-icon {
+    width: 2rem;
+    height: 2rem;
+}
+
+.text-location {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: .5rem;
+    margin: .5rem;
+    margin-bottom: 2rem;
+}
+
+.payment-container {
+    width: 20rem;
+}
+
+.map-text {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: .5rem;
+    color: rgb(255, 255, 255);
+    padding: 2rem;
+}
+
+.map-img {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+}
+
+
+.div-icon {
+    display: flex;
+    gap: 10px;
+}
+
+.pt {
+    margin-top: 0.5rem;
+}
+
+.footer-warning {
+    text-align: center;
+    color: white;
+    background-color: #000000;
+    padding: 1em 0 .1em 0;
+}
+
+.footer-container2 {
+    text-align: center;
+}
+
+.socialmedia-container img{
+    width: 2em;
+}
+.redes-img-phone{
+    border-radius:6px
+}
+iframe{
+    border: 2px solid #ff00de ;
+    border-radius: 20px;
+}

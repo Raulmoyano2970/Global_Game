@@ -1,0 +1,34 @@
+.Equipo{
+    width: 100%;
+        min-height: 100vh;
+        background: #110327;
+        background: linear-gradient(135deg, #110327, #430D65);
+                color: aliceblue;
+    }
+    .contenedor_titulo{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:center;
+        align-items: center;
+        min-height: 14rem;
+        padding-top: 4rem;
+        
+    }
+ 
+      .titulo_equipo{
+        font-size: 4em;
+        z-index: 1;
+    
+    }
+
+    #tituloequipo{
+        position: absolute;
+        padding-top: 4rem;
+    }
+
+    @media screen and (max-width: 600px) {
+
+ .teamimg{
+    width: 23rem;
+ }
+    }
