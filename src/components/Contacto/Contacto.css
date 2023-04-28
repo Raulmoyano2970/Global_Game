@@ -9,6 +9,7 @@
   align-items: center;
   justify-content: center;
   
+  
 }
 
 .box_contact{
@@ -114,8 +115,8 @@ border: 1px solid rgba(255, 255, 255, 0.92);
   transition: all 0.475s;
 }
 
-/*querys*/
-@media screen and (max-width: 1100px){
+/*querys lo cambie a normal*/ 
+
 Form{
   background: none;
   backdrop-filter: none;
@@ -140,7 +141,7 @@ background-position: center;
 .form-control{
   background-color: #ffffff1c;
 }
-  }
+  
   
 
 @media screen and (max-width: 700px){

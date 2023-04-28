@@ -16,6 +16,10 @@ video{
     object-fit: contain;
     color:white;
     justify-content: center;
+    background-image: url("../../Assets/contact4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
   }
 .count_serv{
   display: flex;

@@ -42,7 +42,7 @@ function NavBar() {
           </Navbar.Toggle>
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
-              <Nav.Link href="#filosofia" className={activeLink === 'filosofia' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('filosofia')}>Global</Nav.Link>
+              <Nav.Link href="#filosofia" className={activeLink === 'filosofia' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('filosofia')}>GlobalGame</Nav.Link>
               <Nav.Link href="#servicios" className={activeLink === 'servicios' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('servicios')}>Servicios</Nav.Link>
               <Nav.Link href="#equipo" className={activeLink === 'equipo' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('equipo')}>Equipo</Nav.Link>
               <Nav.Link href="#contacto" className={activeLink === 'contacto' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('contacto')}>Contacto</Nav.Link>

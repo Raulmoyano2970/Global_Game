@@ -3,7 +3,11 @@
         min-height: 100vh;
         background: #110327;
         background: linear-gradient(135deg, #110327, #430D65);
-                color: aliceblue;
+        color: aliceblue;
+        background-image: url("../../Assets/VALORANT_YR1_ArticleHero_16_9.webp");
+        background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
     }
     .contenedor_titulo{
         display: flex;
